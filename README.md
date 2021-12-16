@@ -46,7 +46,7 @@ Each Recipe object has a list of steps, stored in the steps property, and the co
 ### Examples
 - `/recipes/step/4?elapsedTime=11`
 ```text
-Outptut - {index: 0}
+Output - {index: 0}
 ```
 
 #### Explanation
