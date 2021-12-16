@@ -34,7 +34,7 @@ describe('express_recipes_routes', () => {
             .get('/recipes/step/4?elapsedTime=11')
             .then(response => {
                 response.status.should.eql(200);
-                response.body.should.eql({index : 0});
+                response.body.should.eql({index : 3});
                 done();
             })
     })
@@ -44,7 +44,7 @@ describe('express_recipes_routes', () => {
             .get('/recipes/step/2?elapsedTime=9')
             .then(response => {
                 response.status.should.eql(200);
-                response.body.should.eql({index : 6});
+                response.body.should.eql({index : 3});
                 done();
             })
     })
